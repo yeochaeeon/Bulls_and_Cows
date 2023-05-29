@@ -1,14 +1,4 @@
 #include <stdio.h>
-
-int main() {
-    int num;
-
-    printf("세 자리 수를 입력하세요: ");
-    scanf("%d", &num);
-
-    printf("입력한 수: %d\n", num);
-
-    return 0;#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 
@@ -17,7 +7,7 @@ int generateRandomNumber() {
     int randomNumber;
 
     do {
-        randomNumber = rand() % 900 + 100;
+        randomNumber = rand() % 1000;
     } while (!isDistinct(randomNumber));
 
     return randomNumber;
@@ -82,4 +72,4 @@ int main() {
 
     return 0;
 }
-}
+
