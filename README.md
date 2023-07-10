@@ -1,5 +1,5 @@
 # Bulls_and_Cows
 
 This is Bulls and Cows repo.
-
-yoyoyo
+<hr>
+2023 1st semester mentoring
