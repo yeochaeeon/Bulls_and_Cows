@@ -7,7 +7,7 @@ int generateRandomNumber() {
     int randomNumber;
 
     do {
-        randomNumber = rand() % 1000;
+        randomNumber = rand() % 900 + 100;
     } while (!isDistinct(randomNumber));
 
     return randomNumber;
@@ -72,4 +72,3 @@ int main() {
 
     return 0;
 }
-
