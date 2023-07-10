@@ -2,4 +2,4 @@
 
 This is Bulls and Cows repo.
 <hr>
-2023 1st semester mentoring
+The 1st semester of 2023 mentoring
